@@ -86,4 +86,54 @@ header img {
   margin: 0;
   padding: 15px;
   color: white;
+}
+
+.footer {
+  background-color: #3D8EB9;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+}
+.footer .index {
+  width: 200px;
+}
+.footer .index ul {
+  font-size: 25px;
+  list-style-type: none;
+  color: white;
+}
+.footer .index p {
+  font-size: 25px;
+}
+.footer .ysluga {
+  width: 210px;
+}
+.footer .ysluga ul {
+  font-size: 25px;
+  list-style-type: none;
+  color: white;
+}
+.footer .ysluga p {
+  font-size: 25px;
+}
+.footer .otziv {
+  width: 230px;
+}
+.footer .otziv ul {
+  font-size: 25px;
+  list-style-type: none;
+  color: white;
+}
+.footer .otziv p {
+  font-size: 25px;
+}
+.footer .kon-info {
+  width: 400px;
+}
+.footer .kon-info ul {
+  font-size: 25px;
+  list-style-type: none;
+  color: white;
+}
+.footer .kon-info p {
+  font-size: 25px;
 }/*# sourceMappingURL=style.css.map */

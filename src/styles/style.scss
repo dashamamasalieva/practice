@@ -90,3 +90,53 @@ header{
         }
     }
 }
+.footer{
+    background-color: #3D8EB9;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    .index{
+        width: 200px;
+        ul{
+            font-size: 25px;
+            list-style-type: none;
+            color: white;
+        
+        }
+        p{
+            font-size: 25px;
+        }
+    }
+    .ysluga{
+        width: 210px;
+        ul{
+            font-size: 25px;
+            list-style-type: none;
+            color: white;
+        }
+        p{
+            font-size: 25px;
+        }
+    }
+    .otziv{
+        width: 230px;
+        ul{
+            font-size: 25px;
+            list-style-type: none;
+            color: white;
+        }
+        p{
+            font-size: 25px;
+        }
+    }
+    .kon-info{
+        width: 400px;
+        ul{
+            font-size: 25px;
+            list-style-type: none;
+            color: white;
+        }
+        p{
+            font-size: 25px;
+        }
+    }
+}
