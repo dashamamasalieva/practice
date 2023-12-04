@@ -1,0 +1,36 @@
+.wrapper{
+    width: 1440px;
+    box-sizing: border-box;
+    margin: 0 auto;
+}
+header{
+    display: flex;
+    ul{
+        list-style-type: none;
+        display: flex;
+        float: right;
+        margin-top: 40px;
+        font-size: 25px;
+        a{
+            text-decoration: none;
+            color: black;
+            margin-right: 85px;
+        }
+        
+        
+    }
+    img{
+        float: left;
+        width: 306px;
+        height: 85px;
+    }
+}
+.page{
+    background-color: #3D8EB9;
+    color: white;
+    width: 1440px;
+    h1{
+        padding: 35px;
+    }
+    
+}
