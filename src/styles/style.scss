@@ -34,3 +34,59 @@ header{
     }
     
 }
+.news{
+    h1{
+        text-align: center;
+    }
+    .news_block{
+        width: 1122px;
+        img{
+            float: left;
+            width: 399px;
+            height: 400px;
+            margin-right: 40px;
+        }
+        p{
+            font-size: 20px;
+        }
+    }
+    margin-bottom: 300px;
+}
+.ofirme{
+    h1{
+        text-align: center;
+    }
+    ul{
+        font-size: 25px;
+    }
+    p{
+        font-size: 25px;
+    }
+}
+.info{
+    h1{
+        text-align: center;
+    }
+    li{
+        font-size: 25px;
+    }
+    p{
+        margin: 0;
+        font-size: 25px;
+    }
+}
+.vacancy{
+    h1{
+        text-align: center;
+    }
+    .vacancy_block{
+        background-color: #3D8EB9;
+        margin-bottom: 50px;
+        p{
+            font-size: 25px;
+            margin: 0;
+            padding: 15px;
+            color: white;
+        }
+    }
+}

@@ -32,4 +32,58 @@ header img {
 }
 .page h1 {
   padding: 35px;
+}
+
+.news {
+  margin-bottom: 300px;
+}
+.news h1 {
+  text-align: center;
+}
+.news .news_block {
+  width: 1122px;
+}
+.news .news_block img {
+  float: left;
+  width: 399px;
+  height: 400px;
+  margin-right: 40px;
+}
+.news .news_block p {
+  font-size: 20px;
+}
+
+.ofirme h1 {
+  text-align: center;
+}
+.ofirme ul {
+  font-size: 25px;
+}
+.ofirme p {
+  font-size: 25px;
+}
+
+.info h1 {
+  text-align: center;
+}
+.info li {
+  font-size: 25px;
+}
+.info p {
+  margin: 0;
+  font-size: 25px;
+}
+
+.vacancy h1 {
+  text-align: center;
+}
+.vacancy .vacancy_block {
+  background-color: #3D8EB9;
+  margin-bottom: 50px;
+}
+.vacancy .vacancy_block p {
+  font-size: 25px;
+  margin: 0;
+  padding: 15px;
+  color: white;
 }/*# sourceMappingURL=style.css.map */
