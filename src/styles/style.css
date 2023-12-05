@@ -194,4 +194,64 @@ header img {
   margin-bottom: 180px;
   background-color: #3D8EB9;
   color: white;
+}
+
+.question {
+  display: grid;
+  margin-bottom: 60px;
+}
+.question h1 {
+  text-align: center;
+}
+.question input {
+  width: 639px;
+  height: 92px;
+  font-size: 25px;
+  margin-bottom: 60px;
+  padding-left: 25px;
+}
+.question textarea {
+  width: 618px;
+  height: 340px;
+  font-size: 25px;
+  margin-bottom: 60px;
+  padding: 25px;
+}
+.question button {
+  width: 664px;
+  height: 92px;
+  font-size: 25px;
+  margin-bottom: 180px;
+  background-color: #3D8EB9;
+  color: white;
+}
+
+.otziv {
+  display: grid;
+  margin-bottom: 60px;
+}
+.otziv h1 {
+  text-align: center;
+}
+.otziv input {
+  width: 639px;
+  height: 92px;
+  font-size: 25px;
+  margin-bottom: 60px;
+  padding-left: 25px;
+}
+.otziv textarea {
+  width: 618px;
+  height: 340px;
+  font-size: 25px;
+  margin-bottom: 60px;
+  padding: 25px;
+}
+.otziv button {
+  width: 664px;
+  height: 92px;
+  font-size: 25px;
+  margin-bottom: 180px;
+  background-color: #3D8EB9;
+  color: white;
 }/*# sourceMappingURL=style.css.map */

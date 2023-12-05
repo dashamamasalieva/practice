@@ -1,0 +1,26 @@
+- var docName = "MyGiro"
+
+doctype html
+html(lang="ru")
+    head
+        meta(charset="UTF-8")
+        meta(http-equiv="X-UA-Compatible", content="IE=edge")
+        meta(name="viewport", content="width=device-width, initial-scale=1.0")
+        title= docName
+        link(rel="stylesheet", href="styles/style.css")
+    body
+        include modules/header
+        .wrapper
+            .question 
+                h1 Вопросы и ответы
+                input(type="text" placeholder="Ваши Ф.И.О.")
+                input(type="email" placeholder="Email")
+                textarea(name="question", cols="30", rows="10" placeholder="Вопрос")
+                button Отправить 
+            .otziv 
+                h1 Вопросы и ответы
+                input(type="text" placeholder="Ваши Ф.И.О.")
+                input(type="email" placeholder="Email")
+                textarea(name="otziv", cols="30", rows="10" placeholder="Оставьте отзыв")
+                button Отправить
+        include modules/footer

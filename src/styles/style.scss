@@ -201,3 +201,61 @@ header{
         color: white;
     }
 }
+.question{
+    h1{
+        text-align: center;
+    }
+    display: grid;
+    margin-bottom: 60px;
+    input{
+        width: 639px;
+        height: 92px;
+        font-size: 25px;
+        margin-bottom: 60px;
+        padding-left: 25px;
+    }
+    textarea{
+        width: 618px;
+        height: 340px;
+        font-size: 25px;
+        margin-bottom: 60px;
+        padding: 25px;
+    }
+    button{
+        width: 664px;
+        height: 92px;
+        font-size: 25px;
+        margin-bottom: 180px;
+        background-color: #3D8EB9;
+        color: white;
+    }
+}
+.otziv{
+    h1{
+        text-align: center;
+    }
+    display: grid;
+    margin-bottom: 60px;
+    input{
+        width: 639px;
+        height: 92px;
+        font-size: 25px;
+        margin-bottom: 60px;
+        padding-left: 25px;
+    }
+    textarea{
+        width: 618px;
+        height: 340px;
+        font-size: 25px;
+        margin-bottom: 60px;
+        padding: 25px;
+    }
+    button{
+        width: 664px;
+        height: 92px;
+        font-size: 25px;
+        margin-bottom: 180px;
+        background-color: #3D8EB9;
+        color: white;
+    }
+}
