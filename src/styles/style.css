@@ -136,4 +136,62 @@ header img {
 }
 .footer .kon-info p {
   font-size: 25px;
+}
+
+.prays-list h1 {
+  text-align: center;
+}
+.prays-list table {
+  border: 1px solid black;
+  border-collapse: collapse;
+  width: 1159px;
+  height: 561px;
+  margin: auto;
+}
+.prays-list th {
+  border: 1px solid black;
+  background-color: #3D8EB9;
+  color: white;
+  font-size: 30px;
+}
+.prays-list td {
+  border: 1px solid black;
+  text-align: center;
+  font-size: 30px;
+}
+
+.yslygi h1 {
+  text-align: center;
+}
+.yslygi h2 {
+  font-size: 30px;
+}
+.yslygi p {
+  font-size: 25px;
+}
+.yslygi img {
+  width: 640px;
+  height: 500px;
+}
+
+.zapis {
+  display: grid;
+  margin-bottom: 60px;
+}
+.zapis h1 {
+  text-align: center;
+}
+.zapis input {
+  width: 664px;
+  height: 92px;
+  font-size: 25px;
+  margin-bottom: 60px;
+}
+.zapis button {
+  width: 664px;
+  height: 92px;
+  font-size: 25px;
+  margin-bottom: 180px;
+  background-color: #3D8EB9;
+  color: white;
 }/*# sourceMappingURL=style.css.map */
