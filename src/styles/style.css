@@ -1,3 +1,7 @@
+* {
+  font-family: "Times New Roman", Times, serif;
+}
+
 .wrapper {
   width: 1440px;
   box-sizing: border-box;
@@ -184,13 +188,13 @@ header img {
 .zapis input {
   width: 664px;
   height: 92px;
-  font-size: 25px;
+  font-size: 30px;
   margin-bottom: 60px;
 }
 .zapis button {
   width: 664px;
   height: 92px;
-  font-size: 25px;
+  font-size: 30px;
   margin-bottom: 180px;
   background-color: #3D8EB9;
   color: white;
@@ -206,21 +210,21 @@ header img {
 .question input {
   width: 639px;
   height: 92px;
-  font-size: 25px;
+  font-size: 30px;
   margin-bottom: 60px;
   padding-left: 25px;
 }
 .question textarea {
   width: 618px;
   height: 340px;
-  font-size: 25px;
+  font-size: 30px;
   margin-bottom: 60px;
   padding: 25px;
 }
 .question button {
   width: 664px;
   height: 92px;
-  font-size: 25px;
+  font-size: 30px;
   margin-bottom: 180px;
   background-color: #3D8EB9;
   color: white;
@@ -254,4 +258,252 @@ header img {
   margin-bottom: 180px;
   background-color: #3D8EB9;
   color: white;
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+  .wrapper {
+    width: 1000px;
+    box-sizing: border-box;
+    margin: 0 auto;
+  }
+  header {
+    display: flex;
+  }
+  header ul {
+    list-style-type: none;
+    display: flex;
+    float: right;
+    font-size: 25px;
+    margin-bottom: 25px;
+  }
+  header ul a {
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    margin-right: 35px;
+  }
+  header img {
+    float: left;
+    width: 306px;
+    height: 85px;
+  }
+  .page {
+    background-color: #3D8EB9;
+    color: white;
+    width: 1000px;
+  }
+  .page h1 {
+    padding: 35px;
+  }
+  .news {
+    margin-bottom: 250px;
+  }
+  .news h1 {
+    text-align: center;
+  }
+  .news .news_block {
+    width: 981px;
+  }
+  .news .news_block img {
+    float: left;
+    width: 374px;
+    height: 330px;
+    margin-right: 40px;
+  }
+  .news .news_block p {
+    font-size: 15px;
+  }
+  .ofirme h1 {
+    text-align: center;
+  }
+  .ofirme ul {
+    font-size: 20px;
+  }
+  .ofirme p {
+    font-size: 20px;
+  }
+  .info h1 {
+    text-align: center;
+  }
+  .info li {
+    font-size: 20px;
+  }
+  .info p {
+    margin: 0;
+    font-size: 20px;
+  }
+  .vacancy h1 {
+    text-align: center;
+  }
+  .vacancy .vacancy_block {
+    background-color: #3D8EB9;
+    margin-bottom: 40px;
+  }
+  .vacancy .vacancy_block p {
+    font-size: 20px;
+    margin: 0;
+    padding: 10px;
+    color: white;
+  }
+  .footer {
+    background-color: #3D8EB9;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+  }
+  .footer .index {
+    width: 200px;
+  }
+  .footer .index ul {
+    font-size: 20px;
+    list-style-type: none;
+    color: white;
+  }
+  .footer .index p {
+    font-size: 20px;
+  }
+  .footer .ysluga {
+    width: 210px;
+  }
+  .footer .ysluga ul {
+    font-size: 20px;
+    list-style-type: none;
+    color: white;
+  }
+  .footer .ysluga p {
+    font-size: 20px;
+  }
+  .footer .otziv {
+    width: 230px;
+  }
+  .footer .otziv ul {
+    font-size: 20px;
+    list-style-type: none;
+    color: white;
+  }
+  .footer .otziv p {
+    font-size: 20px;
+  }
+  .footer .kon-info {
+    width: 400px;
+  }
+  .footer .kon-info ul {
+    font-size: 20px;
+    list-style-type: none;
+    color: white;
+  }
+  .footer .kon-info p {
+    font-size: 20px;
+  }
+  .prays-list h1 {
+    text-align: center;
+  }
+  .prays-list table {
+    border: 1px solid black;
+    border-collapse: collapse;
+    width: 1000px;
+    height: 511px;
+    margin: auto;
+  }
+  .prays-list th {
+    border: 1px solid black;
+    background-color: #3D8EB9;
+    color: white;
+    font-size: 25px;
+  }
+  .prays-list td {
+    border: 1px solid black;
+    text-align: center;
+    font-size: 25px;
+  }
+  .yslygi h1 {
+    text-align: center;
+  }
+  .yslygi h2 {
+    font-size: 25px;
+  }
+  .yslygi p {
+    font-size: 20px;
+  }
+  .yslygi img {
+    width: 444px;
+    height: 334px;
+  }
+  .zapis {
+    display: grid;
+    margin-bottom: 50px;
+  }
+  .zapis h1 {
+    text-align: center;
+  }
+  .zapis input {
+    width: 505px;
+    height: 64px;
+    font-size: 30px;
+    margin-bottom: 50px;
+  }
+  .zapis button {
+    width: 510px;
+    height: 64px;
+    font-size: 30px;
+    margin-bottom: 150px;
+    background-color: #3D8EB9;
+    color: white;
+  }
+  .question {
+    display: grid;
+    margin-bottom: 50px;
+  }
+  .question h1 {
+    text-align: center;
+  }
+  .question input {
+    width: 530px;
+    height: 64px;
+    font-size: 30px;
+    margin-bottom: 50px;
+    padding-left: 25px;
+  }
+  .question textarea {
+    width: 510px;
+    height: 277px;
+    font-size: 30px;
+    margin-bottom: 60px;
+    padding: 25px;
+  }
+  .question button {
+    width: 560px;
+    height: 64px;
+    font-size: 30px;
+    margin-bottom: 180px;
+    background-color: #3D8EB9;
+    color: white;
+  }
+  .otziv {
+    display: grid;
+    margin-bottom: 50px;
+  }
+  .otziv h1 {
+    text-align: center;
+  }
+  .otziv input {
+    width: 530px;
+    height: 64px;
+    font-size: 30px;
+    margin-bottom: 50px;
+    padding-left: 25px;
+  }
+  .otziv textarea {
+    width: 510px;
+    height: 277px;
+    font-size: 30px;
+    margin-bottom: 60px;
+    padding: 25px;
+  }
+  .otziv button {
+    width: 560px;
+    height: 64px;
+    font-size: 30px;
+    margin-bottom: 180px;
+    background-color: #3D8EB9;
+    color: white;
+  }
 }/*# sourceMappingURL=style.css.map */

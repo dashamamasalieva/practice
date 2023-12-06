@@ -1,8 +1,12 @@
+*{
+    font-family: 'Times New Roman', Times, serif;
+}
 .wrapper{
     width: 1440px;
     box-sizing: border-box;
     margin: 0 auto;
 }
+//Шапка 
 header{
     display: flex;
     ul{
@@ -25,6 +29,7 @@ header{
         height: 85px;
     }
 }
+//Название страницы
 .page{
     background-color: #3D8EB9;
     color: white;
@@ -34,6 +39,7 @@ header{
     }
     
 }
+//Главная страница
 .news{
     h1{
         text-align: center;
@@ -90,6 +96,7 @@ header{
         }
     }
 }
+//Подвал
 .footer{
     background-color: #3D8EB9;
     display: grid;
@@ -140,6 +147,7 @@ header{
         }
     }
 }
+//Страница Услуг
 .prays-list{
     h1{
         text-align: center;
@@ -189,18 +197,19 @@ header{
     input{
         width: 664px;
         height: 92px;
-        font-size: 25px;
+        font-size: 30px;
         margin-bottom: 60px;
     }
     button{
         width: 664px;
         height: 92px;
-        font-size: 25px;
+        font-size: 30px;
         margin-bottom: 180px;
         background-color: #3D8EB9;
         color: white;
     }
 }
+//Страница Отзывов
 .question{
     h1{
         text-align: center;
@@ -210,21 +219,21 @@ header{
     input{
         width: 639px;
         height: 92px;
-        font-size: 25px;
+        font-size: 30px;
         margin-bottom: 60px;
         padding-left: 25px;
     }
     textarea{
         width: 618px;
         height: 340px;
-        font-size: 25px;
+        font-size: 30px;
         margin-bottom: 60px;
         padding: 25px;
     }
     button{
         width: 664px;
         height: 92px;
-        font-size: 25px;
+        font-size: 30px;
         margin-bottom: 180px;
         background-color: #3D8EB9;
         color: white;
@@ -257,5 +266,275 @@ header{
         margin-bottom: 180px;
         background-color: #3D8EB9;
         color: white;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 1024px){
+    .wrapper{
+        width: 1000px;
+        box-sizing: border-box;
+        margin: 0 auto;
+    }
+    //Шапка 
+    header{
+        display: flex;
+        ul{
+            list-style-type: none;
+            display: flex;
+            float: right;
+            font-size: 25px;
+            margin-bottom: 25px;
+            a{
+                text-decoration: none;
+                color: rgb(0, 0, 0);
+                margin-right: 35px;
+            }
+            
+            
+        }
+        img{
+            float: left;
+            width: 306px;
+            height: 85px;
+            
+        }
+    }
+    //Название страницы
+    .page{
+        background-color: #3D8EB9;
+        color: white;
+        width: 1000px;
+        h1{
+            padding: 35px;
+        }
+        
+    }
+    //Главная страница
+    .news{
+        h1{
+            text-align: center;
+        }
+        .news_block{
+            width: 981px;
+            img{
+                float: left;
+                width: 374px;
+                height: 330px;
+                margin-right: 40px;
+            }
+            p{
+                font-size: 15px;
+            }
+        }
+        margin-bottom: 250px;
+    }
+    .ofirme{
+        h1{
+            text-align: center;
+        }
+        ul{
+            font-size: 20px;
+        }
+        p{
+            font-size: 20px;
+        }
+    }
+    .info{
+        h1{
+            text-align: center;
+        }
+        li{
+            font-size: 20px;
+        }
+        p{
+            margin: 0;
+            font-size: 20px;
+        }
+    }
+    .vacancy{
+        h1{
+            text-align: center;
+        }
+        .vacancy_block{
+            background-color: #3D8EB9;
+            margin-bottom: 40px;
+            p{
+                font-size: 20px;
+                margin: 0;
+                padding: 10px;
+                color: white;
+            }
+        }
+    }
+    .footer{
+        background-color: #3D8EB9;
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        .index{
+            width: 200px;
+            ul{
+                font-size: 20px;
+                list-style-type: none;
+                color: white;
+            
+            }
+            p{
+                font-size: 20px;
+            }
+        }
+        .ysluga{
+            width: 210px;
+            ul{
+                font-size: 20px;
+                list-style-type: none;
+                color: white;
+            }
+            p{
+                font-size: 20px;
+            }
+        }
+        .otziv{
+            width: 230px;
+            ul{
+                font-size: 20px;
+                list-style-type: none;
+                color: white;
+            }
+            p{
+                font-size: 20px;
+            }
+        }
+        .kon-info{
+            width: 400px;
+            ul{
+                font-size: 20px;
+                list-style-type: none;
+                color: white;
+            }
+            p{
+                font-size: 20px;
+            }
+        }
+    }
+    //Страница Услуг
+    .prays-list{
+        h1{
+            text-align: center;
+        }
+        table {
+            border: 1px solid black;
+            border-collapse: collapse;
+            width: 1000px;
+            height: 511px;
+            margin: auto;
+        }
+        th {
+            border: 1px solid black;
+            background-color: #3D8EB9;
+            color: white;
+            font-size: 25px;
+        }
+        td {
+            border: 1px solid black;
+            text-align: center;
+            font-size: 25px;
+        }
+    }
+    .yslygi{
+        h1{
+            text-align: center;
+        }
+        
+        h2{
+            font-size: 25px;
+        }
+        p{
+            font-size: 20px;
+        }
+        img{
+            width: 444px;
+            height: 334px;
+        }
+        
+    }
+    .zapis{
+        h1{
+            text-align: center;
+        }
+        display: grid;
+        margin-bottom: 50px;
+        input{
+            width: 505px;
+            height: 64px;
+            font-size: 30px;
+            margin-bottom: 50px;
+        }
+        button{
+            width: 510px;
+            height: 64px;
+            font-size: 30px;
+            margin-bottom: 150px;
+            background-color: #3D8EB9;
+            color: white;
+        }
+    }
+    //Страница Отзывов
+    .question{
+        h1{
+            text-align: center;
+        }
+        display: grid;
+        margin-bottom: 50px;
+        input{
+            width: 530px;
+            height: 64px;
+            font-size: 30px;
+            margin-bottom: 50px;
+            padding-left: 25px;
+        }
+        textarea{
+            width: 510px;
+            height: 277px;
+            font-size: 30px;
+            margin-bottom: 60px;
+            padding: 25px;
+        }
+        button{
+            width: 560px;
+            height: 64px;
+            font-size: 30px;
+            margin-bottom: 180px;
+            background-color: #3D8EB9;
+            color: white;
+        }
+    }
+    .otziv{
+        h1{
+            text-align: center;
+        }
+        display: grid;
+        margin-bottom: 50px;
+        input{
+            width: 530px;
+            height: 64px;
+            font-size: 30px;
+            margin-bottom: 50px;
+            padding-left: 25px;
+        }
+        textarea{
+            width: 510px;
+            height: 277px;
+            font-size: 30px;
+            margin-bottom: 60px;
+            padding: 25px;
+        }
+        button{
+            width: 560px;
+            height: 64px;
+            font-size: 30px;
+            margin-bottom: 180px;
+            background-color: #3D8EB9;
+            color: white;
+        }
     }
 }
