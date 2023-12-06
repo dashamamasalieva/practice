@@ -506,4 +506,260 @@ header img {
     background-color: #3D8EB9;
     color: white;
   }
+}
+@media (min-width: 480px) and (max-width: 768px) {
+  .wrapper {
+    width: 743px;
+    box-sizing: border-box;
+    margin: 0 auto;
+  }
+  header {
+    display: flex;
+  }
+  header ul {
+    list-style-type: none;
+    display: flex;
+    float: right;
+    font-size: 25px;
+    margin-bottom: 10px;
+    margin-top: 25px;
+  }
+  header ul a {
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    margin-right: 35px;
+  }
+  header img {
+    float: left;
+    width: 214px;
+    height: 72px;
+  }
+  .page {
+    background-color: #3D8EB9;
+    color: white;
+    width: 743px;
+  }
+  .page h1 {
+    padding: 25px;
+  }
+  .news {
+    margin-bottom: 220px;
+  }
+  .news h1 {
+    text-align: center;
+    font-size: 25px;
+  }
+  .news .news_block {
+    width: 729px;
+  }
+  .news .news_block img {
+    float: left;
+    width: 278px;
+    height: 278px;
+    margin-right: 20px;
+  }
+  .news .news_block p {
+    font-size: 15px;
+  }
+  .ofirme h1 {
+    text-align: center;
+    font-size: 25px;
+  }
+  .ofirme ul {
+    font-size: 15px;
+  }
+  .ofirme p {
+    font-size: 15px;
+  }
+  .info h1 {
+    text-align: center;
+    font-size: 25px;
+  }
+  .info li {
+    font-size: 15px;
+  }
+  .info p {
+    margin: 0;
+    font-size: 15px;
+  }
+  .vacancy h1 {
+    text-align: center;
+    font-size: 25px;
+  }
+  .vacancy .vacancy_block {
+    background-color: #3D8EB9;
+    margin-bottom: 50px;
+  }
+  .vacancy .vacancy_block p {
+    font-size: 15px;
+    margin: 0;
+    padding: 7px;
+    color: white;
+  }
+  .footer {
+    background-color: #3D8EB9;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+  }
+  .footer .index {
+    width: 108px;
+  }
+  .footer .index ul {
+    font-size: 20px;
+    list-style-type: none;
+    color: white;
+  }
+  .footer .index p {
+    font-size: 20px;
+  }
+  .footer .ysluga {
+    width: 110px;
+  }
+  .footer .ysluga ul {
+    font-size: 20px;
+    list-style-type: none;
+    color: white;
+  }
+  .footer .ysluga p {
+    font-size: 20px;
+  }
+  .footer .otziv {
+    width: 119px;
+  }
+  .footer .otziv ul {
+    font-size: 20px;
+    list-style-type: none;
+    color: white;
+  }
+  .footer .otziv p {
+    font-size: 20px;
+  }
+  .footer .kon-info {
+    width: 213px;
+  }
+  .footer .kon-info ul {
+    font-size: 20px;
+    list-style-type: none;
+    color: white;
+  }
+  .footer .kon-info p {
+    font-size: 20px;
+  }
+  .prays-list h1 {
+    text-align: center;
+    font-size: 25px;
+  }
+  .prays-list table {
+    border: 1px solid black;
+    border-collapse: collapse;
+    width: 743px;
+    height: 510px;
+    margin: auto;
+  }
+  .prays-list th {
+    border: 1px solid black;
+    background-color: #3D8EB9;
+    color: white;
+    font-size: 25px;
+  }
+  .prays-list td {
+    border: 1px solid black;
+    text-align: center;
+    font-size: 25px;
+  }
+  .yslygi h1 {
+    text-align: center;
+    font-size: 25px;
+  }
+  .yslygi h2 {
+    font-size: 20px;
+  }
+  .yslygi p {
+    font-size: 25px;
+  }
+  .yslygi img {
+    width: 330px;
+    height: 334px;
+  }
+  .zapis {
+    display: grid;
+    margin-bottom: 50px;
+  }
+  .zapis h1 {
+    text-align: center;
+  }
+  .zapis input {
+    width: 505px;
+    height: 64px;
+    font-size: 30px;
+    margin-bottom: 50px;
+  }
+  .zapis button {
+    width: 510px;
+    height: 64px;
+    font-size: 30px;
+    margin-bottom: 190px;
+    background-color: #3D8EB9;
+    color: white;
+  }
+  .question {
+    display: grid;
+    margin-bottom: 50px;
+  }
+  .question h1 {
+    text-align: center;
+    font-size: 25px;
+  }
+  .question input {
+    width: 530px;
+    height: 64px;
+    font-size: 30px;
+    margin-bottom: 50px;
+    padding-left: 25px;
+  }
+  .question textarea {
+    width: 510px;
+    height: 277px;
+    font-size: 30px;
+    margin-bottom: 60px;
+    padding: 25px;
+  }
+  .question button {
+    width: 560px;
+    height: 64px;
+    font-size: 30px;
+    margin-bottom: 180px;
+    background-color: #3D8EB9;
+    color: white;
+  }
+  .otziv {
+    display: grid;
+    margin-bottom: 50px;
+  }
+  .otziv h1 {
+    text-align: center;
+    font-size: 25px;
+  }
+  .otziv input {
+    width: 530px;
+    height: 64px;
+    font-size: 30px;
+    margin-bottom: 50px;
+    padding-left: 25px;
+  }
+  .otziv textarea {
+    width: 510px;
+    height: 277px;
+    font-size: 30px;
+    margin-bottom: 60px;
+    padding: 25px;
+  }
+  .otziv button {
+    width: 560px;
+    height: 64px;
+    font-size: 30px;
+    margin-bottom: 100px;
+    background-color: #3D8EB9;
+    color: white;
+  }
 }/*# sourceMappingURL=style.css.map */
