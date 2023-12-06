@@ -1099,3 +1099,287 @@ header{
         }
     }
 }
+@media (max-width: 320px){
+    .wrapper{
+        width: 300px;
+        box-sizing: border-box;
+        margin: 0 auto;
+    }
+    //Шапка 
+    header{
+        display: flex;
+        ul{
+            list-style-type: none;
+            display: flex;
+            float: right;
+            font-size: 10px;
+            margin-bottom: 10px;
+            margin-top: 15px;
+        
+            a{
+                text-decoration: none;
+                color: rgb(0, 0, 0);
+                margin-right: 15px;
+            }
+            
+            
+        }
+        img{
+            float: left;
+            width: 116px;
+            height: 31px;
+            
+        }
+    }
+    //Название страницы
+    .page{
+        background-color: #3D8EB9;
+        color: white;
+        width: 300px;
+        h1{
+            padding: 15px;
+            font-size: 15px;
+        }
+        
+    }
+    //Главная страница
+    .news{
+        h1{
+            text-align: center;
+            font-size: 15px;
+        }
+        .news_block{
+            width: 300px;
+            img{
+                float: left;
+                width: 111px;
+                height: 135px;
+                margin-right: 8px;
+            }
+            p{
+                font-size: 10px;
+            }
+        }
+        margin-bottom: 30px;
+    }
+    .ofirme{
+        h1{
+            text-align: center;
+            font-size: 15px;
+        }
+        ul{
+            font-size: 10px;
+        }
+        p{
+            font-size: 10px;
+        }
+    }
+    .info{
+        h1{
+            text-align: center;
+            font-size: 15px;
+        }
+        li{
+            font-size: 10px;
+        }
+        p{
+            margin: 0;
+            font-size: 10px;
+        }
+    }
+    .vacancy{
+        h1{
+            text-align: center;
+            font-size: 15px;
+        }
+        .vacancy_block{
+            background-color: #3D8EB9;
+            margin-bottom: 25px;
+            p{
+                font-size: 10px;
+                margin: 0;
+                padding: 3px;
+                color: white;
+            }
+        }
+        margin-bottom: 100px;
+    }
+    //Подвал
+    .footer{
+        background-color: #3D8EB9;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(2, 1fr);
+        .index{
+            width: 100px;
+            ul{
+                font-size: 15px;
+                list-style-type: none;
+                color: white;
+            
+            }
+            p{
+                font-size: 15px;
+            }
+        }
+        .ysluga{
+            width: 68px;
+            ul{
+                font-size: 15px;
+                list-style-type: none;
+                color: white;
+            }
+            p{
+                font-size: 15px;
+            }
+        }
+        .otziv{
+            width: 73px;
+            ul{
+                font-size: 15px;
+                list-style-type: none;
+                color: white;
+            }
+            p{
+                font-size: 15px;
+            }
+        }
+        .kon-info{
+            width: 200px;
+            ul{
+                font-size: 15px;
+                list-style-type: none;
+                color: white;
+            }
+            p{
+                font-size: 15px;
+            }
+        }
+    }
+    //Страница Услуг
+    .prays-list{
+        h1{
+            text-align: center;
+            font-size: 15px;
+        }
+        table {
+            border: 1px solid black;
+            border-collapse: collapse;
+            width: 300px;
+            height: 211px;
+            margin: auto;
+        }
+        th {
+            border: 1px solid black;
+            background-color: #3D8EB9;
+            color: white;
+            font-size: 10px;
+        }
+        td {
+            border: 1px solid black;
+            text-align: center;
+            font-size: 10px;
+        }
+    }
+    .yslygi{
+        h1{
+            text-align: center;
+            font-size: 15px;
+        }
+        
+        h2{
+            font-size: 15px;
+        }
+        p{
+            font-size: 10px;
+        }
+        img{
+            width: 132px;
+            height: 132px;
+        }
+        
+    }
+    .zapis{
+        h1{
+            text-align: center;
+            font-size: 15px;
+        }
+        display: grid;
+        margin-bottom: 25px;
+        input{
+            width: 298px;
+            height: 50px;
+            font-size: 15px;
+            margin-bottom: 25px;
+        }
+        button{
+            width: 298px;
+            height: 50px;
+            font-size: 15px;
+            margin-bottom: 80px;
+            background-color: #3D8EB9;
+            color: white;
+        }
+    }
+    //Страница Отзывов
+    .question{
+        h1{
+            text-align: center;
+            font-size: 15px;
+        }
+        display: grid;
+        margin-bottom: 50px;
+        input{
+            width: 270px;
+            height: 50px;
+            font-size: 15px;
+            margin-bottom: 25px;
+            padding-left: 25px;
+        }
+        textarea{
+            width: 250px;
+            height: 250px;
+            font-size: 15px;
+            margin-bottom: 25px;
+            padding: 25px;
+        }
+        button{
+            width: 300px;
+            height: 50px;
+            font-size: 15px;
+            margin-bottom: 100px;
+            background-color: #3D8EB9;
+            color: white;
+        }
+    }
+    .otziv{
+        h1{
+            text-align: center;
+            font-size: 15px;
+        }
+        display: grid;
+        margin-bottom: 50px;
+        input{
+            width: 270px;
+            height: 50px;
+            font-size: 15px;
+            margin-bottom: 25px;
+            padding-left: 25px;
+        }
+        textarea{
+            width: 250px;
+            height: 250px;
+            font-size: 15px;
+            margin-bottom: 25px;
+            padding: 25px;
+        }
+        button{
+            width: 300px;
+            height: 50px;
+            font-size: 15px;
+            margin-bottom: 100px;
+            background-color: #3D8EB9;
+            color: white;
+        }
+    }
+}
