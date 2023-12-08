@@ -230,34 +230,14 @@ header img {
   color: white;
 }
 
-.otziv {
-  display: grid;
-  margin-bottom: 60px;
-}
 .otziv h1 {
   text-align: center;
 }
-.otziv input {
-  width: 639px;
-  height: 92px;
-  font-size: 25px;
-  margin-bottom: 60px;
-  padding-left: 25px;
+.otziv h2 {
+  font-size: 30px;
 }
-.otziv textarea {
-  width: 618px;
-  height: 340px;
+.otziv p {
   font-size: 25px;
-  margin-bottom: 60px;
-  padding: 25px;
-}
-.otziv button {
-  width: 664px;
-  height: 92px;
-  font-size: 25px;
-  margin-bottom: 180px;
-  background-color: #3D8EB9;
-  color: white;
 }
 
 @media (min-width: 768px) and (max-width: 1024px) {
@@ -484,27 +464,11 @@ header img {
   .otziv h1 {
     text-align: center;
   }
-  .otziv input {
-    width: 530px;
-    height: 64px;
-    font-size: 30px;
-    margin-bottom: 50px;
-    padding-left: 25px;
+  .otziv h2 {
+    font-size: 25px;
   }
-  .otziv textarea {
-    width: 510px;
-    height: 277px;
-    font-size: 30px;
-    margin-bottom: 60px;
-    padding: 25px;
-  }
-  .otziv button {
-    width: 560px;
-    height: 64px;
-    font-size: 30px;
-    margin-bottom: 180px;
-    background-color: #3D8EB9;
-    color: white;
+  .otziv p {
+    font-size: 20px;
   }
 }
 @media (min-width: 480px) and (max-width: 768px) {
@@ -520,7 +484,7 @@ header img {
     list-style-type: none;
     display: flex;
     float: right;
-    font-size: 15px;
+    font-size: 25px;
     margin-bottom: 10px;
     margin-top: 35px;
   }
@@ -559,28 +523,28 @@ header img {
     margin-right: 20px;
   }
   .news .news_block p {
-    font-size: 15px;
+    font-size: 20px;
   }
   .ofirme h1 {
     text-align: center;
     font-size: 25px;
   }
   .ofirme ul {
-    font-size: 15px;
+    font-size: 20px;
   }
   .ofirme p {
-    font-size: 15px;
+    font-size: 20px;
   }
   .info h1 {
     text-align: center;
     font-size: 25px;
   }
   .info li {
-    font-size: 15px;
+    font-size: 20px;
   }
   .info p {
     margin: 0;
-    font-size: 15px;
+    font-size: 20px;
   }
   .vacancy h1 {
     text-align: center;
@@ -591,7 +555,7 @@ header img {
     margin-bottom: 50px;
   }
   .vacancy .vacancy_block p {
-    font-size: 15px;
+    font-size: 20px;
     margin: 0;
     padding: 7px;
     color: white;
@@ -672,10 +636,10 @@ header img {
     font-size: 25px;
   }
   .yslygi h2 {
-    font-size: 20px;
+    font-size: 25px;
   }
   .yslygi p {
-    font-size: 25px;
+    font-size: 20px;
   }
   .yslygi img {
     width: 330px;
@@ -732,35 +696,15 @@ header img {
     background-color: #3D8EB9;
     color: white;
   }
-  .otziv {
-    display: grid;
-    margin-bottom: 50px;
-  }
   .otziv h1 {
     text-align: center;
     font-size: 25px;
   }
-  .otziv input {
-    width: 530px;
-    height: 64px;
-    font-size: 30px;
-    margin-bottom: 50px;
-    padding-left: 25px;
+  .otziv h2 {
+    font-size: 25px;
   }
-  .otziv textarea {
-    width: 510px;
-    height: 277px;
-    font-size: 30px;
-    margin-bottom: 60px;
-    padding: 25px;
-  }
-  .otziv button {
-    width: 560px;
-    height: 64px;
-    font-size: 30px;
-    margin-bottom: 100px;
-    background-color: #3D8EB9;
-    color: white;
+  .otziv p {
+    font-size: 20px;
   }
 }
 @media (min-width: 320px) and (max-width: 480px) {
@@ -776,14 +720,14 @@ header img {
     list-style-type: none;
     display: flex;
     float: right;
-    font-size: 15px;
+    font-size: 20px;
     margin-bottom: 10px;
     margin-top: 15px;
   }
   header ul a {
     text-decoration: none;
     color: rgb(0, 0, 0);
-    margin-right: 35px;
+    margin-right: 20px;
   }
   header img {
     float: left;
@@ -804,51 +748,46 @@ header img {
   }
   .news h1 {
     text-align: center;
-    font-size: 20px;
+    font-size: 25px;
   }
-  .news .news_block {
-    width: 460px;
-  }
-  .news .news_block img {
-    float: left;
+  .news img {
     width: 169px;
     height: 165px;
-    margin-right: 14px;
   }
-  .news .news_block p {
-    font-size: 10px;
+  .news p {
+    font-size: 20px;
   }
   .ofirme h1 {
     text-align: center;
-    font-size: 20px;
+    font-size: 25px;
   }
   .ofirme ul {
-    font-size: 15px;
+    font-size: 20px;
   }
   .ofirme p {
-    font-size: 15px;
+    font-size: 20px;
   }
   .info h1 {
     text-align: center;
-    font-size: 20px;
+    font-size: 25px;
   }
   .info li {
-    font-size: 15px;
+    font-size: 20px;
   }
   .info p {
     margin: 0;
-    font-size: 15px;
+    font-size: 20px;
   }
   .vacancy h1 {
     text-align: center;
-    font-size: 20px;
+    font-size: 25px;
   }
   .vacancy .vacancy_block {
     background-color: #3D8EB9;
     margin-bottom: 25px;
   }
   .vacancy .vacancy_block p {
-    font-size: 15px;
+    font-size: 20px;
     margin: 0;
     padding: 5px;
     color: white;
@@ -997,27 +936,11 @@ header img {
     text-align: center;
     font-size: 20px;
   }
-  .otziv input {
-    width: 430px;
-    height: 64px;
+  .otziv h2 {
     font-size: 20px;
-    margin-bottom: 50px;
-    padding-left: 25px;
   }
-  .otziv textarea {
-    width: 410px;
-    height: 277px;
-    font-size: 20px;
-    margin-bottom: 60px;
-    padding: 25px;
-  }
-  .otziv button {
-    width: 460px;
-    height: 64px;
-    font-size: 20px;
-    margin-bottom: 100px;
-    background-color: #3D8EB9;
-    color: white;
+  .otziv p {
+    font-size: 15px;
   }
 }
 @media (max-width: 320px) {
@@ -1033,19 +956,19 @@ header img {
     list-style-type: none;
     display: flex;
     float: right;
-    font-size: 10px;
+    font-size: 15px;
     margin-bottom: 10px;
-    margin-top: 15px;
+    margin-top: 5px;
   }
   header ul a {
     text-decoration: none;
     color: rgb(0, 0, 0);
-    margin-right: 15px;
+    margin-right: 7px;
   }
   header img {
     float: left;
-    width: 116px;
-    height: 31px;
+    width: 92px;
+    height: 24px;
   }
   .page {
     background-color: #3D8EB9;
@@ -1061,10 +984,10 @@ header img {
   }
   .news h1 {
     text-align: center;
-    font-size: 15px;
+    font-size: 20px;
   }
   .news .news_block {
-    width: 300px;
+    width: 305px;
   }
   .news .news_block img {
     float: left;
@@ -1073,42 +996,42 @@ header img {
     margin-right: 8px;
   }
   .news .news_block p {
-    font-size: 10px;
+    font-size: 15px;
   }
   .ofirme h1 {
     text-align: center;
-    font-size: 15px;
+    font-size: 20px;
   }
   .ofirme ul {
-    font-size: 10px;
+    font-size: 15px;
   }
   .ofirme p {
-    font-size: 10px;
+    font-size: 15px;
   }
   .info h1 {
     text-align: center;
-    font-size: 15px;
+    font-size: 20px;
   }
   .info li {
-    font-size: 10px;
+    font-size: 15px;
   }
   .info p {
     margin: 0;
-    font-size: 10px;
+    font-size: 15px;
   }
   .vacancy {
     margin-bottom: 100px;
   }
   .vacancy h1 {
     text-align: center;
-    font-size: 15px;
+    font-size: 20px;
   }
   .vacancy .vacancy_block {
     background-color: #3D8EB9;
     margin-bottom: 25px;
   }
   .vacancy .vacancy_block p {
-    font-size: 10px;
+    font-size: 15px;
     margin: 0;
     padding: 3px;
     color: white;
@@ -1165,35 +1088,35 @@ header img {
   }
   .prays-list h1 {
     text-align: center;
-    font-size: 15px;
+    font-size: 20px;
   }
   .prays-list table {
     border: 1px solid black;
     border-collapse: collapse;
-    width: 300px;
-    height: 211px;
+    width: 305px;
+    height: 318px;
     margin: auto;
   }
   .prays-list th {
     border: 1px solid black;
     background-color: #3D8EB9;
     color: white;
-    font-size: 10px;
+    font-size: 15px;
   }
   .prays-list td {
     border: 1px solid black;
     text-align: center;
-    font-size: 10px;
+    font-size: 15px;
   }
   .yslygi h1 {
     text-align: center;
-    font-size: 15px;
+    font-size: 20px;
   }
   .yslygi h2 {
-    font-size: 15px;
+    font-size: 20px;
   }
   .yslygi p {
-    font-size: 10px;
+    font-size: 15px;
   }
   .yslygi img {
     width: 132px;
@@ -1205,7 +1128,7 @@ header img {
   }
   .zapis h1 {
     text-align: center;
-    font-size: 15px;
+    font-size: 20px;
   }
   .zapis input {
     width: 298px;
@@ -1227,7 +1150,7 @@ header img {
   }
   .question h1 {
     text-align: center;
-    font-size: 15px;
+    font-size: 20px;
   }
   .question input {
     width: 270px;
@@ -1257,28 +1180,12 @@ header img {
   }
   .otziv h1 {
     text-align: center;
-    font-size: 15px;
+    font-size: 20px;
   }
-  .otziv input {
-    width: 270px;
-    height: 50px;
-    font-size: 15px;
-    margin-bottom: 25px;
-    padding-left: 25px;
+  .otziv h2 {
+    font-size: 20px;
   }
-  .otziv textarea {
-    width: 250px;
-    height: 250px;
+  .otziv p {
     font-size: 15px;
-    margin-bottom: 25px;
-    padding: 25px;
-  }
-  .otziv button {
-    width: 300px;
-    height: 50px;
-    font-size: 15px;
-    margin-bottom: 100px;
-    background-color: #3D8EB9;
-    color: white;
   }
 }/*# sourceMappingURL=style.css.map */
